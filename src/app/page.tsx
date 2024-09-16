@@ -1,8 +1,12 @@
-
+'use client'
+import LoginPage from "@/app/components/ui/LoginPage";
+import Landing from "@/app/globals/Landing/Landing";
+import { useRwaHubStore } from "@/libs/store";
 export default function Home() {
+  const { userAddressWallet } = useRwaHubStore()
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>RWA HUB</h2>
-    </main>
+    <div className="">
+      {userAddressWallet !== "" ? <Landing /> : <LoginPage />}
+    </div>
   );
 }
