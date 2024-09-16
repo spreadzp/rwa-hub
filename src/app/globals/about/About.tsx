@@ -1,11 +1,10 @@
-import StarryBackground from '@/app/components/common/StarryBackground';
+
 import React from 'react';
 import Collaboration from '../Landing/Collaboration';
 
 const About: React.FC = () => {
     return (
         <>
-            <StarryBackground />
             <div className="min-h-screen  justify-center items-center">
                 <div className="container mx-auto p-6 text-white space-y-6">
                     <h1 className="text-4xl font-bold text-center mb-4">About RWA-HUB</h1>

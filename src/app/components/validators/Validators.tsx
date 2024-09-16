@@ -42,7 +42,6 @@ const Validators: React.FC = () => {
 
     return (
         <div className="p-4">
-            <StarryBackground />
             <div className="min-h-screen">
                 <h1 className="text-2xl font-bold mb-4 text-yellow-200">Validators List</h1>
                 <BaseTable

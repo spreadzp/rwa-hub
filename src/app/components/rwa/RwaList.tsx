@@ -4,7 +4,6 @@ import { useRouter } from 'next/navigation';
 import { TableData } from '@/types/table.interfaces';
 import React, { useEffect, useState } from 'react';
 import BaseTable from '../common/BaseTable';
-import StarryBackground from '../common/StarryBackground';
 import { getCurrentTokenId, getRwaSymbol, getTokenURI } from '@/libs/web3/rwaToken';
 import { calculateRatings, getAdminAddress, getEncodedValuation, getValidators, getValuation, setDecodedValuation, setUpRwaToValuate } from '@/libs/web3/rwaValuation';
 import Title, { TitleEffect, TitleSize } from '../common/Title';
@@ -150,7 +149,6 @@ const RwaList: React.FC = () => {
                 titleSize={TitleSize.H3}
                 titleEffect={TitleEffect.Gradient}
             />
-            <StarryBackground />
             {isAdmin ? <div >
                 <BaseTable
                     data={dataForTable}

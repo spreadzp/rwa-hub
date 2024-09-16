@@ -5,7 +5,6 @@ import StarryBackground from "../../components/common/StarryBackground";
 export default function Footer() {
     return (
         <>
-            <StarryBackground />
             <footer className="text-black text-center p-4">
                 <SocialNetworks />
             </footer>

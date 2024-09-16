@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import { TableData } from '@/types/table.interfaces';
 import React, { useEffect, useState } from 'react';
 import BaseTable from '../common/BaseTable';
-import StarryBackground from '../common/StarryBackground';
 import { getCurrentTokenId, getTokenURI } from '@/libs/web3/rwaToken';
 import { getValuation } from '@/libs/web3/rwaValuation';
 
@@ -55,7 +54,6 @@ const RwaListForValidate: React.FC = () => {
     };
     return (
         <div className="p-4">
-            <StarryBackground />
             <div className="min-h-screen">
                 <h1 className="text-2xl font-bold mb-4 first-line:text-yellow-200">RWA List For Validate</h1>
                 <BaseTable

@@ -1,8 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import LoginPage from '../ui/LoginPage';
-import StarryBackground from '../common/StarryBackground';
-import Spinner from '../common/Spinner';
 import { useRwaHubStore } from '@/libs/store';
 import { tokenURI } from '@/libs/web3/web3';
 import ErrorModal from '../common/modal/ErrorModal';
@@ -84,7 +82,6 @@ const RwaToValuate: React.FC = () => {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen text-yellow-200">
-            <StarryBackground />
             <div className="w-full max-w-2xl p-4">
                 <div className="mb-4">
                     <div className="font-bold">Contract Address:</div>

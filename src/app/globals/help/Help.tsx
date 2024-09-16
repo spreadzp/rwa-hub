@@ -5,7 +5,6 @@ import Collaboration from '../Landing/Collaboration';
 const Help: React.FC = () => {
     return (
         <>
-            <StarryBackground />
             <div className="min-h-screen ">
                 <div className="container mx-auto p-4 text-white">
                     <h1 className="text-4xl font-bold mb-4">Help Center</h1>
