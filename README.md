@@ -109,7 +109,8 @@ In the project directory, you can run the following commands:
 ### Resources
 
 - **Production Host**: [https://rwa-hub.vercel.app/](https://rwa-hub.vercel.app/)
-- **Demo Video**: [How RWA-HUB Works](#)
+- **Demo Video**: [How RWA-HUB Works](https://www.youtube.com/watch?v=4mbTdp9S6SI&t=1s)
+- **Smart Contracts Repository**: [RWA smart contracts](https://github.com/spreadzp/kiichain-contracts)
 - **Deployed Smart Contracts**:
   - **RwaToken**: `0x8992E3458ab7C93172c791596EBd0C55bb9C329a` (Testnet on KiiChain)
   - **RwaValuation**: `0x6284bca15B9346453b2B08412Af923560Cf24502` (Testnet on KiiChain)

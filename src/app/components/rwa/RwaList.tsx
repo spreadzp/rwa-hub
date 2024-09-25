@@ -158,7 +158,7 @@ const RwaList: React.FC = () => {
                     onCalculateRatingsClick={(item: TableData) => calculateRatingValidators(item)}
                 />
             </div> :
-                <div className="flex flex-col items-center justify-center min-h-screen text-yellow-200">
+                <div>
                     <BaseTable
                         data={dataForTable}
                         onJoinClick={handleJoinClick}
